@@ -29,6 +29,7 @@ SECRET_KEY = str(randint(100000, 999999))
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 ALLOWED_HOSTS = []
 
